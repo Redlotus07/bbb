@@ -1,0 +1,44 @@
+/* index.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background: #007bff;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+aside {
+  background: #343a40;
+  color: white;
+  padding: 10px;
+  height: 100vh;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #007bff;
+  color: white;
+}

@@ -1,0 +1,28 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "Beekeeper AI Metrics",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "HTTP Requests",
+        "targets": [
+          {
+            "target": "http_requests_total"
+          }
+        ]
+      },
+      {
+        "type": "graph",
+        "title": "Response Time",
+        "targets": [
+          {
+            "target": "http_response_time_seconds"
+          }
+        ]
+      }
+    ],
+    "schemaVersion": 16,
+    "version": 1
+  }
+}

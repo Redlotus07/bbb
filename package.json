@@ -1,0 +1,16 @@
+{
+  "name": "stackblitz-webcontainer-api-starter-yzofay",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "vite": "latest",
+    "@vitejs/plugin-react": "latest"
+  },
+  "devDependencies": {}
+}

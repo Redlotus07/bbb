@@ -1,0 +1,17 @@
+.dashboard-container {
+  padding: 20px; /* Padding around the dashboard */
+  background-color: #f8f9fa; /* Light background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.charts-and-lists {
+  display: flex; /* Flexbox for layout */
+  justify-content: space-between; /* Space between chart and list */
+  margin-top: 20px; /* Space above the charts and lists */
+}
+
+.charts-and-lists > div {
+  flex: 1; /* Each child takes equal space */
+  margin: 0 10px; /* Space between chart and list */
+}

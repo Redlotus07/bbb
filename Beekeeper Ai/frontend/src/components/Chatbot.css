@@ -1,0 +1,63 @@
+.chatbot-container {
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px; /* Padding inside the container */
+  background-color: #f9f9f9; /* Light background */
+  width: 300px; /* Fixed width */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.chat-window {
+  display: flex;
+  flex-direction: column; /* Stack messages vertically */
+  height: 400px; /* Fixed height */
+  overflow-y: auto; /* Scrollable if content overflows */
+}
+
+.messages {
+  flex: 1; /* Take available space */
+  margin-bottom: 10px; /* Space below messages */
+}
+
+.message {
+  padding: 10px; /* Padding for messages */
+  border-radius: 5px; /* Rounded corners for messages */
+  margin: 5px 0; /* Space between messages */
+}
+
+.message.user {
+  background-color: #007bff; /* Blue background for user messages */
+  color: white; /* White text for user messages */
+  align-self: flex-end; /* Align user messages to the right */
+}
+
+.message.bot {
+  background-color: #e0e0e0; /* Light gray background for bot messages */
+  color: black; /* Black text for bot messages */
+  align-self: flex-start; /* Align bot messages to the left */
+}
+
+.input-container {
+  display: flex; /* Flexbox for input and button */
+}
+
+input {
+  flex: 1; /* Input takes available space */
+  padding: 10px; /* Padding inside input */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 4px; /* Rounded corners */
+}
+
+button {
+  padding: 10px 15px; /* Padding for button */
+  margin-left: 5px; /* Space between input and button */
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
